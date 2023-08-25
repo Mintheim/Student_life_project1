@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<title>Contact Us</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!-- Linking the Font Awesome -->
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+	<!-- Linking the CSS file -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <!-- Menu -->
+	<div class="container-fluid bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <!-- Responsive Button -->
+            <button class="navbar-toggler bg-light" style="outline: none; cursor: pointer;" type="button" data-toggle="collapse" data-target="#navbarcontent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Menu -->
+            <div class="collapse navbar-collapse bg-danger" id="navbarcontent" style="padding-top: 0.3em; padding-bottom: 0.3em;">
+                <ul class="navbar-nav mr-auto" style="margin-left: 3em;">
+                    <li class="nav-item">
+                        <a class="nav-link menubar" href="index.html" style="color: white;">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle menubar" data-toggle="dropdown" id="navbarDropdownMenuLink" href="courses.html" role="button" aria-haspopup="true" aria-expanded="false" style="color: white;">Services and Products offered</a>
+                                <div class="dropdown-menu" style="font-family: Cambria;">
+									<a class="dropdown-item" href="recepie.html" style="color: red;">RecepiesGuide</a>
+                                    <a class="dropdown-item" href="BakeAtHome.html" style="color: red;">Bake At Home Set</a>
+                                    <a class="dropdown-item" href="ingredients.html" style="color: red;">Ingredients</a>
+									<a class="dropdown-item" href="#" style="color: red;">OthersItems</a>
+									<a class="dropdown-item" href="otheritems.html" style="color: red;">Meal Planners</a>
+									<a class="dropdown-item" href="otheritems.html" style="color: red;">Nutrition Information Appp</a>
+									<a class="dropdown-item" href="otheritems.html" style="color: red;">Selection of Weekly recepies Choice</a>
+									<a class="dropdown-item" href="otheritems.html" style="color: red;">Gift Box </a>
+                                </div>
+                    </li>
+					<li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle menubar" data-toggle="dropdown" id="navbarDropdownMenuLink" href="courses.html" role="button" aria-haspopup="true" aria-expanded="false" style="color: white;">Packages Offered</a>
+                                <div class="dropdown-menu" style="font-family: Cambria;">
+                                    <a class="dropdown-item" href="packagesoffer.html" style="color: red;">Beginner</a>
+                                    <a class="dropdown-item" href="packagesoffer.html" style="color: red;">Everyday</a>
+                                    <a class="dropdown-item" href="packagesoffer.html" style="color: red;">Deluxe</a>
+									<a class="dropdown-item" href="packagesoffer.html" style="color: red;">Custom</a>
+                                </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menubar" href="aboutus.html" style="color: white;">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menubar" href="contactus.html" style="color: white;">Contact Us</a>
+                    </li>
+                </ul>
+        </nav>
+    </div>
+    <!-- Image -->
+    <div class="container-fluid form">
+        <div class="row">
+            <div class="col-sm-12">
+                    <img class="d-block w-100" src="Image/img12.png" alt="First slide" style="height: 750px;">
+            </div>
+        </div>
+    </div>
+            <div class="card col-sm-12 style="padding-top: 1em; padding-bottom: 1em; margin-top: 1em; margin-bottom: 1em; font-family: Cambria; color: #dc3545;">
+                <h4><b>Send Us A Message</b></h4>
+                <div style="color: black;">You can contact us anything related to our services and products. We'll get in touch with you as soon as possible.</div>
+                        <form role="form" style="color: black;" name="form1" method="POST" onsubmit="return myvalid()">
+                            <!-- Name -->
+                            <div class="form-group">
+                                <label for="txt" class="label">Name</label>
+                                    <input type="text" class="form-control" id="uname" name="uname" placeholder="Enter Your Name">
+                                    <!-- Error Message For Name -->
+                                        <div class="valid">
+                                            <div id="cv1"></div>
+                                        </div>
+                            </div>
+                            <!-- Email -->
+                            <div class="form-group">
+                                <label for="txtemail" class="label">Email</label>
+                                    <input type="text" id="mail" class="form-control" name="mail" placeholder="example@domain.com">
+                                    <!-- Error Message For Email -->
+                                        <div class="valid">
+                                            <div id="cv2"></div>
+                                        </div>
+                            </div>
+                            <!-- Phone Number -->
+                            <div class="form-group">
+                                <label class="label">Contact Number</label>
+                                    <input class="form-control" type="text" id="phone" name="phone" placeholder="Enter Your Phone Number">
+                                    <!-- Error Message For Phone Number -->
+                                        <div class="valid">
+                                            <div id="cv3"></div>
+                                        </div>
+                            </div>
+                            <!-- Message -->
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1" class="label">Your Message</label>
+                                    <textarea class="form-control" id="msg" rows="2" placeholder="Enter Your Message" name="msg"></textarea>
+                                    <!-- Error Message For Message -->
+                                        <div class="valid">
+                                            <div id="cv4"></div>
+                                        </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary loginbtn" style="padding-left: 6.5em; padding-right: 6.5em;">SUBMIT</button>
+                            <button type="reset" class="btn btn-danger loginbtn" style="padding-left: 6.3em; padding-right: 6.3em;">CANCEL</button>
+                        </form>
+                    <div>
+                        <h5><b>Infromation</b></h5>
+                        <div style="color: black;">
+                            <i class="fas fa-envelope"></i> <a href="https://mail.google.com/mail/u/0/#inbox" id="info">inabox@gmail.com</a>
+                        </div>
+                    </div>
+            </div>
+            </div>
+            <div class="col-sm-1 bg">
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="container-fluid foot">
+        <div class="row">
+
+            <div class="col-sm-6" align="center">
+                <div class="foothead">Quick Links</div>
+                <a href="aboutus.html" class="footlink">About Us</a><br>
+                <a href="contactus.html" class="footlink">Contact Us</a><br>
+            </div>
+
+            <div class="col-sm-6" align="center">
+                <div class="foothead" style="margin-bottom: 1em; padding-top: 1.1em;">Social Media</div>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-sm-12 copy" align="center">
+                Copyright &copy; 2022 Designed by MTK
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script type="text/javascript">
+function myvalid()
+    {
+        // Creating Variable
+        f = document.form1;
+        var username = f.uname.value;
+        var regname = /^[a-zA-Z ]+$/;
+        var regcap = /^[A-Z]/
+        var useremail = f.mail.value;
+        var regmail = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+        var userph = f.phone.value;
+        var usermessage = f.msg.value;
+
+        // Name Validation
+        if(username.length === 0)
+            {
+                document.getElementById('cv1').innerHTML = "Please Enter Your Name!";
+                return false;
+            }
+        else if (regname.test(username) === false)
+            {
+                document.getElementById('cv1').innerHTML = "Please Enter Your  Name Only Words!";
+                return false;
+            }
+        else if (regcap.test(username) === false)
+            {
+                document.getElementById('cv1').innerHTML = "Your  Name must start with Capital Letter. eg. Jessi Lim!";
+                return false;
+            }
+        else if (!checkLength(username,4,50))   
+            {
+                document.getElementById('cv1').innerHTML = "Name must be between 4 and 50 words!";
+                return false;
+            }
+        else
+            {
+                document.getElementById('cv1').innerHTML = "";
+            }
+        // Email Validation
+        if (useremail.length === 0) 
+            {
+                document.getElementById('cv2').innerHTML = "Please Fill Your Email Address!";
+                return false;
+            }   
+        else if (regmail.test(useremail) === false) 
+            {
+                document.getElementById('cv2').innerHTML = "Invalid Email Format!";
+                return false;
+            }
+        else if (!checkLength(useremail,4,30))  
+            {
+                document.getElementById('cv2').innerHTML = "Email Address must be between 4 and 30 characters!";
+                return false;
+            }
+        else
+            {
+                document.getElementById('cv2').innerHTML = "";
+            }
+        // For Phone Number Validation
+        if (userph.length === 0)    
+            {
+                document.getElementById('cv3').innerHTML = "Please Fill Your Phone Number!";
+                return false;
+            }
+        else if (isNaN(userph)) 
+            {
+                document.getElementById('cv3').innerHTML = "Please Fill Only Numbers!";
+                return false;
+            }
+        else if (!checkLength(userph,11,11))    
+            {
+                document.getElementById('cv3').innerHTML = "Your Phone Number must be 11 digits!";
+                return false;
+            }
+        else
+            {
+                document.getElementById('cv3').innerHTML = "";
+            }
+        // For Message Validation
+        if (usermessage.length === 0)   
+            {
+                document.getElementById('cv4').innerHTML = "Please Fill Your Message!";
+                return false;
+            }
+        else if (!checkLength(usermessage,6,500))   
+            {
+                document.getElementById('cv4').innerHTML = "Your Message must between 6 and 500 characters!";
+                return false;
+            }
+        else
+            {
+                alert("Message Sent");
+            }
+        // Successful
+        return true;
+    }
+
+function checkLength(text, min, max)
+    {       
+        min = min || 1;         
+        max = max || 10000;
+        if (text.length < min || text.length> max) 
+        { 
+            return false;
+        }
+        return true;
+    }
+</script>
+</html>

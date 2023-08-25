@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html> 
+<head>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<title>Recepie Guides</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!-- Linking the Font Awesome -->
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+	<!-- Linking the CSS file -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <!-- Menu -->
+	<div class="container-fluid bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <!-- Responsive Button -->
+            <button class="navbar-toggler bg-light" style="outline: none; cursor: pointer;" type="button" data-toggle="collapse" data-target="#navbarcontent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Menu -->
+            <div class="collapse navbar-collapse bg-danger" id="navbarcontent" style="padding-top: 0.3em; padding-bottom: 0.3em;">
+                <ul class="navbar-nav mr-auto" style="margin-left: 3em;">
+                    <li class="nav-item">
+                        <a class="nav-link menubar" href="index.html" style="color: white;">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle menubar" data-toggle="dropdown" id="navbarDropdownMenuLink" href="courses.html" role="button" aria-haspopup="true" aria-expanded="false" style="color: white;">Services and Products offered</a>
+                                <div class="dropdown-menu" style="font-family: Cambria;">
+									<a class="dropdown-item" href="recepie.html" style="color: red;">RecepiesGuide</a>
+                                    <a class="dropdown-item" href="BakeAtHome.html" style="color: red;">Bake At Home Set</a>
+                                    <a class="dropdown-item" href="ingredients.html" style="color: red;">Ingredients</a>
+									<a class="dropdown-item" href="#" style="color: red;">OthersItems</a>
+									<a class="dropdown-item" href="otheritems.html" style="color: red;">Meal Planners</a>
+									<a class="dropdown-item" href="otheritems.html" style="color: red;">Nutrition Information Appp</a>
+									<a class="dropdown-item" href="otheritems.html" style="color: red;">Selection of Weekly recepies Choice</a>
+									<a class="dropdown-item" href="otheritems.html" style="color: red;">Gift Box </a>
+                                </div>
+                    </li>
+					<li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle menubar" data-toggle="dropdown" id="navbarDropdownMenuLink" href="courses.html" role="button" aria-haspopup="true" aria-expanded="false" style="color: white;">Packages Offered</a>
+                                <div class="dropdown-menu" style="font-family: Cambria;">
+                                    <a class="dropdown-item" href="packagesoffer.html" style="color: red;">Beginner</a>
+                                    <a class="dropdown-item" href="packagesoffer.html" style="color: red;">Everyday</a>
+                                    <a class="dropdown-item" href="packagesoffer.html" style="color: red;">Deluxe</a>
+									<a class="dropdown-item" href="packagesoffer.html" style="color: red;">Custom</a>
+                                </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menubar" href="aboutus.html" style="color: white;">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menubar" href="contactus.html" style="color: white;">Contact Us</a>
+                    </li>
+                </ul>
+        </nav>
+    </div>
+	<br> r1.html
+	<br>
+  <!-- Popular Food-->
+    <div class="container-fluid pc">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+                    <img class="card-img-top pcimg" src="Image/r1.png" alt="COPYCAT TACO BELL NACHO FRIES BELLGRANDE">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-weight: bold;">COPYCAT TACO BELL NACHO FRIES BELLGRANDE</h5>
+                                <p class="card-text" align="justify">
+                                   In a small bowl mix together French Fry Seasoning ingredients. Cook frozen French Fries according to package directions; halfway through cooking, sprinkle french fries with french fry seasoning and toss to coat. Set cooked fries aside....
+                                </p>
+                            <a href="r1.html" class="btn btn-danger">Details</a>
+                        </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <img class="card-img-top pcimg" src="Image/r2.png"alt="BONEFISH GRILL'S BANG BANG SHRIMP">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-weight: bold;">BONEFISH GRILL'S BANG BANG SHRIMP</h5>
+                                <p class="card-text" align="justify">
+                                You will be using 1 bottle Dinni’s Select Bang Bang Sauce.Peel and Devein shrimp.Sprinkle shrimp with 1 1/2 teaspoons salt; let stand at room temperature for 12 minutes. Combine eggs, milk, corn starch, flour, baking powder in mixing....
+                            <a href="r2.html" class="btn btn-danger" style="margin-top: 1.5em;">Details</a>
+                        </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <img class="card-img-top pcimg" src="Image/r3.png" alt="OLIVE GARDEN COPYCAT ZUPPA TOSCANA">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-weight: bold;">OLIVE GARDEN COPYCAT ZUPPA TOSCANA</h5>
+                                <p class="card-text" align="justify">
+                                    Chop or slice uncooked sausage into small pieces and cook until browned and meat is ground in bottom of your soup pan over med-high heat.Add onions, garlic, salt, pepper, and red pepper....
+
+                                </p>
+                            <a href="#" class="btn btn-danger" style="margin-top: 1.5em;">Details</a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+	<br>
+	<!-- Popular Food-->
+    <div class="container-fluid pc">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+                    <img class="card-img-top pcimg" src="Image/r4.png" alt="CARRABBA'S CHICKEN BRYAN">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-weight: bold;">CARRABBA'S CHICKEN BRYAN</h5>
+                                <p class="card-text" align="justify">
+                                   Saute garlic and onion in 2 Tbls. butter in a large skillet over medium heat until tender...
+                                </p>
+                            <a href="#" class="btn btn-danger">Details</a>
+                        </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <img class="card-img-top pcimg" src="Image/img10.png"alt="Kyay Oh">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-weight: bold;">Kyay Oh</h5>
+                                <p class="card-text" align="justify">
+                                 This is the popular noodle soup made with pork and egg in Burmese cuisine. Fish and chicken versions are also made as well as a "dry" version without broth. Kyay 0h is traditionally served in a copper pot.Kyay oh is made with rice noodles (rice vermicelli or flat rice noodles) and marinated meatballs....
+                            <a href="#" class="btn btn-danger" style="margin-top: 1.5em;">Details</a>
+                        </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <img class="card-img-top pcimg" src="Image/r5.png" alt="PANDA EXPRESS ORANGE CHICKEN">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-weight: bold;">PANDA EXPRESS ORANGE CHICKEN</h5>
+                                <p class="card-text" align="justify">
+									Place chicken pieces in a large bowl, set aside.In a medium bowl, stir egg, salt, pepper and 1 tablespoon oil and mix well, set aside. so close to the real thing it may take you a while to realize you're eating beans instead of meat. It's also a nice topper for potatoes if you aren't in the mood for pasta. 
+                                </p>
+                            <a href="#" class="btn btn-danger" style="margin-top: 1.5em;">Details</a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+	<br>
+	<!-- Popular Food-->
+    <div class="container-fluid pc">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+                    <img class="card-img-top pcimg" src="Image/img9.png" alt="Lentil Soup">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-weight: bold;">Lentil Soups</h5>
+                                <p class="card-text" align="justify">
+                                   If you're looking to pack in a lot of nutrients on a budget, then green lentils are the way to go. Green lentils are a healthy, versatile staple that work in soups, salads, curries, and even pasta sauce. Check out our selection of traditional green lentil recipes as well as innovative, vegetarian-friendly ways to substitute green lentil for meat....
+                                </p>
+                            <a href="#" class="btn btn-danger">Details</a>
+                        </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <img class="card-img-top pcimg" src="Image/r6.png"alt="MY COPYCAT SHRIMP PAESANO">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-weight: bold;">MY COPYCAT SHRIMP PAESANO</h5>
+                                <p class="card-text" align="justify">
+                                 Pre-heat oven to 400º F.Soak shrimp in half& half for 30 minutes.Drain shrimp and dust lightly in flour.Sauté shrimp for 5 minutes on one side.You will have to do in batches so that you do not overcrowd....
+                            <a href="#" class="btn btn-danger" style="margin-top: 1.5em;">Details</a>
+                        </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <img class="card-img-top pcimg" src="Image/img8.png" alt="Lentil Bologenese">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-weight: bold;">Lentil Boligenese</h5>
+                                <p class="card-text" align="justify">
+                                    This vegan Bolognese tastes so close to the real thing it may take you a while to realize you're eating beans instead of meat. It's also a nice topper for potatoes if you aren't in the mood for pasta....
+                                </p>
+                            <a href="#" class="btn btn-danger" style="margin-top: 1.5em;">Details</a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+	<br>
+	<!-- Popular Food-->
+    <div class="container-fluid pc">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+                    <img class="card-img-top pcimg" src="Image/r7.png" alt="BEIJING BEEF">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-weight: bold;">BEIJING BEEF</h5>
+                                <p class="card-text" align="justify">
+                                   Cut beef into thin strips . In a bowl of sealable bag combine all marinade ingredients and mix well. Add beef slices and marinate for 15 minutes....
+                                </p>
+                            <a href="#" class="btn btn-danger">Details</a>
+                        </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <img class="card-img-top pcimg" src="Image/r8.png"alt="COPYCAT SWEETGREEN AVOCADO GREENS BOWL">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-weight: bold;">COPYCAT SWEETGREEN AVOCADO GREENS BOWL</h5>
+                                <p class="card-text" align="justify">
+                                 Preheat oven to 425 degrees F. Place butternut squash on a rimmed baking sheet and drizzle with olive oil. Season generously with salt and pepper and transfer to oven. Roast, flipping pieces after 20 minutes, until golden.....
+                            <a href="#" class="btn btn-danger" style="margin-top: 1.5em;">Details</a>
+                        </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <img class="card-img-top pcimg" src="Image/r10.png" alt="HOT ARTICHOKE AND SPINACH DIP">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-weight: bold;">HOT ARTICHOKE AND SPINACH DIP</h5>
+                                <p class="card-text" align="justify">
+                                    mix all ingredients in a large bowlpour into crock pot and set on high ready to served...
+                                </p>
+                            <a href="#" class="btn btn-danger" style="margin-top: 1.5em;">Details</a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer --><br>
+	<!-- Popular Food-->
+    <div class="container-fluid pc">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+                    <img class="card-img-top pcimg" src="Image/r11.png" alt="TACO BELL CHEESY GORDITA CRUNCH">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-weight: bold;">TACO BELL CHEESY GORDITA CRUNCH</h5>
+                                <p class="card-text" align="justify">
+                                   In a small bowl, stir together Copycat Taco Bell Spicy Ranch ingredients, chill, covered until ready to use....
+                                </p>
+                            <a href="#" class="btn btn-danger">Details</a>
+                        </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <img class="card-img-top pcimg" src="Image/r13.png"alt="POLLO ROSA MARIA">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-weight: bold;">POLLO ROSA MARIA</h5>
+                                <p class="card-text" align="justify">
+                                 Open chicken breasts and lay open side down on a hot grill.Grill 3-5 minutes on each side until cooked.Remove from grill.Stuff one of the butterflied sides with 1 slice prosciutto....
+                            <a href="#" class="btn btn-danger" style="margin-top: 1.5em;">Details</a>
+                        </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <img class="card-img-top pcimg" src="Image/r12.png" alt="SWEETGREEN LENTIL AVOCADO BOWL">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-weight: bold;">SWEETGREEN LENTIL AVOCADO BOWL</h5>
+                                <p class="card-text" align="justify">
+								Preheat oven to 425 degrees F. Place broccolini on a rimmed baking sheet and drizzle with olive oil. Season with cayenne and salt and pepper to taste and toss to combine. Transfer to oven and roast until golden and crispy, about 20 minutes. Remove broccolini to a plate.....                               
+							</p>
+                            <a href="#" class="btn btn-danger" style="margin-top: 1.5em;">Details</a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer --><br>
+    <!-- Footer -->
+    <div class="container-fluid foot">
+        <div class="row">
+
+            <div class="col-sm-6" align="center">
+                <div class="foothead">Quick Links</div>
+                <a href="aboutus.html" class="footlink">About Us</a><br>
+                <a href="contactus.html" class="footlink">Contact Us</a><br>
+            </div>
+
+            <div class="col-sm-6" align="center">
+                <div class="foothead" style="margin-bottom: 1em; padding-top: 1.1em;">Social Media</div>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-sm-12 copy" align="center">
+                Copyright &copy; 2022 Designed by MTK
+            </div>
+        </div>
+    </div>
+</body>
+</html>

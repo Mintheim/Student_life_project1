@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html> 
+<head>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<title>Recepie Guides</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!-- Linking the Font Awesome -->
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+	<!-- Linking the CSS file -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <!-- Menu -->
+	<div class="container-fluid bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <!-- Responsive Button -->
+            <button class="navbar-toggler bg-light" style="outline: none; cursor: pointer;" type="button" data-toggle="collapse" data-target="#navbarcontent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Menu -->
+            <div class="collapse navbar-collapse bg-danger" id="navbarcontent" style="padding-top: 0.3em; padding-bottom: 0.3em;">
+                <ul class="navbar-nav mr-auto" style="margin-left: 3em;">
+                    <li class="nav-item">
+                        <a class="nav-link menubar" href="index.html" style="color: white;">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle menubar" data-toggle="dropdown" id="navbarDropdownMenuLink" href="courses.html" role="button" aria-haspopup="true" aria-expanded="false" style="color: white;">Services and Products offered</a>
+                                <div class="dropdown-menu" style="font-family: Cambria;">
+									<a class="dropdown-item" href="recepie.html" style="color: red;">RecepiesGuide</a>
+                                    <a class="dropdown-item" href="BakeAtHome.html" style="color: red;">Bake At Home Set</a>
+                                    <a class="dropdown-item" href="ingredients.html" style="color: red;">Ingredients</a>
+									<a class="dropdown-item" href="#" style="color: red;">OthersItems</a>
+									<a class="dropdown-item" href="otheritems.html" style="color: red;">Meal Planners</a>
+									<a class="dropdown-item" href="otheritems.html" style="color: red;">Nutrition Information Appp</a>
+									<a class="dropdown-item" href="otheritems.html" style="color: red;">Selection of Weekly recepies Choice</a>
+									<a class="dropdown-item" href="otheritems.html" style="color: red;">Gift Box </a>
+                                </div>
+                    </li>
+					<li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle menubar" data-toggle="dropdown" id="navbarDropdownMenuLink" href="courses.html" role="button" aria-haspopup="true" aria-expanded="false" style="color: white;">Packages Offered</a>
+                                <div class="dropdown-menu" style="font-family: Cambria;">
+                                    <a class="dropdown-item" href="packagesoffer.html" style="color: red;">Beginner</a>
+                                    <a class="dropdown-item" href="packagesoffer.html" style="color: red;">Everyday</a>
+                                    <a class="dropdown-item" href="packagesoffer.html" style="color: red;">Deluxe</a>
+									<a class="dropdown-item" href="packagesoffer.html" style="color: red;">Custom</a>
+                                </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menubar" href="aboutus.html" style="color: white;">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menubar" href="contactus.html" style="color: white;">Contact Us</a>
+                    </li>
+                </ul>
+        </nav>
+    </div>
+	<br>
+	<br>
+          <div class="col-sm-4">
+                <div class="card">
+                    <img class="card-img-top pcimg" src="Image/r2.png"alt="BONEFISH GRILL'S BANG BANG SHRIMP">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-weight: bold;">BONEFISH GRILL'S BANG BANG SHRIMP</h5>
+                                <p class="card-text" align="justify">
+                                You will be using 1 bottle Dinni’s Select Bang Bang Sauce.<br>Sprinkle shrimp with 1 1/2 teaspoons salt; let stand at room temperature for 12 minutes. Combine eggs, milk, corn starch, flour, baking powder in mixing bowl; mix until smooth. Heat oil in deep fryer to 350°F Add batter to the bowl with shrimp, stir till the shrimp is well coated with batter drop shrimp in the deep fryer and fry till golden brown (about 3 minutes).<br>In a separate bowl or a ( large zip lock bag ) empty one 12 oz. bottle of Dinni’s Select Bang Bang Sauce, drop the fried shrimp and still till all the shrimp is coated with the sauce. Garnish with fresh green or red hot peppers.
+                                </p>
+                            <a href="contactus.html" class="btn btn-danger">Details</a>
+                        </div>
+                </div>
+            </div>

@@ -1,0 +1,248 @@
+/*Navigation*/
+/*Menu*/
+.menubar{ 
+			font-weight: bold; 
+			font-family: Cambria; 
+			font-size: 1.1em;
+			color: white;
+		}
+
+.menubtn{ 
+			font-weight: bold; 
+			font-family: Cambria;
+		}
+/*Menu*/
+/*Navigation*/
+
+/*Content*/
+.sshow	{
+			margin-left: -1em;
+			margin-right: -1em;
+		}
+
+.txt{
+		font-family: Cambria;
+		color: white;
+		background-color: #dc3545;
+	}
+
+.txtall {
+			font-family: Cambria;
+			color: #dc3545;
+		}
+
+.pc	{
+		margin-top: -1.8em;
+		font-family: Cambria;
+		color: #dc3545;
+		margin-bottom: 1em;
+	}
+
+.pcimg	{ 
+			height: 220px;
+		}
+
+.bg {
+		background-color: #b8b8b8;
+	}
+
+.form	{
+			padding-bottom: 3em;
+			padding-top: 3em;
+		}
+
+.frm	{
+			padding-top: 1.5em; 
+			padding-bottom: 1.5em;
+			font-family: Cambria;
+			color: black;
+		}
+
+.label	{
+			font-weight: bold;
+		}
+
+.loginbtn	{
+				margin-bottom: 0.5em;
+			}
+
+.valid	{
+			height: 1em;
+			padding-top: 0.4em;
+			color: red;	
+		}
+
+#info	{
+			color: black;
+		}
+
+#info:hover	{
+				color: #dc3545;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+.bclink	{
+			color: #dc3545;
+		}
+
+.bclink:hover	{
+					color: #dc3545;
+					text-decoration: none;
+					font-weight: bold;
+				}
+
+.bclinkdetails	{
+					color: white;
+				}
+
+.bclinkdetails:hover{
+						color: white;
+						text-decoration: none;
+						font-weight: bold;
+					}
+
+.courseheading	{
+					margin: 1em 0.3em 1em 0.3em; 
+					border-radius: 0.5em 0.5em 0em 0em;
+					padding-top: 1em;
+				}
+
+.cdetail1	{
+				margin: -1em 0.3em 0em 0.3em; 
+				padding-top: 1em;
+			}
+
+.cdetail2	{
+				margin: -1em 0.3em 0em 0.3em; 
+				padding-top: 1em;
+			}
+
+.cdetail3	{
+				margin: -1em 0.3em 1em 0.3em; 
+				padding-top: 1em; 
+				border-radius: 0em 0em 0.5em 0.5em;"
+			}
+
+.cdhead	{
+			font-weight: bold; 
+			font-size: 1.7em; 
+			padding-top: 0.5em;
+			margin-bottom: -0.3em;"
+		}
+
+.cdes	{
+			font-weight: bold; 
+			font-size: 1.2em; 
+			margin-top: -0.5em;
+		}
+
+.cbtn	{
+			margin-bottom: -4em; 
+			margin-top: -2em;
+		}
+
+.detail	{
+			margin-top: 1em;
+		}
+
+.detailhead	{
+				margin-top: -2em;
+			}
+
+.detailv{ 
+			color: white;
+		}
+
+.vsize	{
+			width: auto;
+			height: auto;
+		}
+
+.sitelink	{
+				color: white;
+			}
+
+.sitelink:hover	{
+					color: black;
+					text-decoration: none;
+					font-weight: bold;
+				}
+/*Content*/
+
+/*Footer*/
+.foot 	{
+			padding-top: 1em;
+			padding-bottom: 1em;
+			background-color: lightgrey;
+		}
+
+.foothead	{
+				color: #dc3545; 
+				font-family: Cambria; 
+				font-weight: bold; 
+				font-size: 1.1em; 
+				padding-right: 0.5em;
+			}
+
+.footlink	{
+				color: #dc3545;
+				font-family: Cambria;
+				font-size: 1.05em;
+			}
+
+.footlink:hover	{
+					font-weight: bold;
+					text-decoration: none;
+					color: #dc3545;
+				}
+
+/*Social Icons*/
+.fa-facebook-f	{
+					color: #464545;
+					font-size: 1.5em;
+					margin-right: 0.5em;
+				}
+
+.fa-linkedin-in	{
+					color: #464545;
+					font-size: 1.5em;
+					margin-right: 0.5em;
+				}
+
+.fa-instagram	{
+					color: #464545;
+					font-size: 1.5em;
+					margin-right: 0.5em;
+				}
+
+.fa-twitter	{
+				color: #464545;
+				font-size: 1.5em;
+			}
+.fa-facebook-f:hover{
+						color: #dc3545;
+					}
+
+.fa-linkedin-in:hover	{
+							color: #dc3545;
+						}
+
+.fa-instagram:hover	{
+						color: #dc3545;
+					}
+
+.fa-twitter:hover	{
+						color: #dc3545;
+					}
+/*Social Icons*/
+
+/*Copyright*/
+.copy	{
+			color: black;
+			font-family: Cambria;
+			font-weight: bold;
+			padding-top: 0.5em;
+		}
+/*Copyright*/
+/*Footer
